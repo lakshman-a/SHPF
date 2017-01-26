@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Serial_1_1" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_02">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_02"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the sim unblock request with the maximum number of characters in the ticketid and reason field."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_02.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_10">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_10"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the Missing claim request, Get account details request is sent to RRBS after successful submission of the sim block request in the CRM application."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_10.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_11">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_11"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the Missing claim request, Get account details request is sent to RRBS after successful submission of the sim unblock request in the CRM application."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_11.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_16">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_16"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the ticketid is considered as the mandatory field in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_16.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_11">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_11"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs first Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_11.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_22">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_22"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs REPEAT TOPUP in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_22.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_25">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_25"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with percent discount amount when CsAgent user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_25.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_26">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_26"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected  When CsAgent user applied invalid promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_26.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_33">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_33"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when CsAgent user Performs Repeat Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_33.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_44">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_44"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when CsAgent user Performs Repeat Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_44.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_49">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_49"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup is success when CsAgent user selects others option and Performs Repeat Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_49.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_50">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_50"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup is success when Admin user selects others option and Performs Repeat Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_50.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_51">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_51"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup is success when Admin user selects topup amount with decimal in others option and Performs Repeat Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_51.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_52">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_52"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup is success when CSagent user selects topup amount with decimal in others option and Performs Repeat Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_52.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_07">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_07"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Autotop Winservice is performing Topup for the MSISDN for which AutoTopup is Configured."/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_07.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_08">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_08"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Autotop Winservice is performing Topup for the MSISDN for which AutoTopup is Configured and Maxlimit is reached."/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_01">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_01"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin User is successfully able to Activate a MSISDN Safe Custody for a Registered MSISDN"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_05">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_05"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email ID field dislayed in the MSISDN SafeCustody page is displayed as non-mandatory when Admin user sets the Value for the Config Param `EmailMandatoryForNumberLocker ` as OFF."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_06">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_06"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Values for the SafeHolding Period is displayed based on the Value configured for SafeHoldMaxMonths Config Param"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_06.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_10">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_10"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether csagent User is successfully able to Activate a MSISDN Safe Custody for a Registered MSISDN"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_10.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="Voucher_Topup_18">
+      <parameter name="testcaseName" value="Voucher_Topup_18"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the RRBS logs are captured successfully (Topup request and response) while performing voucher topup in the CRM application."/>
+      <parameter name="testCategory" value="GBR VOUCHER TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/Voucher_Topup_18.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_471">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_471"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is successfully able to Login the Plintron CRM Application for Norway."/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_471.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_472">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_472"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whehter Admin user is successfully able to perform Without  Personal Number Type Registrationfor Norway via Plintron CRM."/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_472.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_475">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_475"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Appropriate Error Message is displayed when EXIBS is down and Admin user tries to perform Registration in Plintron-CRM for&#xA;Norway."/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_475.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_476">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_476"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Address Finder Search button is not displayed in the Registration page when USEGAF Config paramtere is set as False in Plintron CRM Application for Norway"/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_476.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_481">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_481"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to Edit the Informations entered during the registration in Edit Registration Page of Plintron CRM for Norway."/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_481.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_483">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_483"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether csAgent user is successfully able to Login the Plintron CRM Application for Norway."/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_483.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_487">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_487"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whehter csAgent user is successfully able to perform Without  Personal Number Type Registrationfor Norway via Plintron CRM."/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_487.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_490">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_490"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Appropriate Error Message is displayed when EXIBS is down and csAgent user tries to perform Registration in Plintron-CRM&#xA;for Norway."/>
+      <parameter name="testCategory" value="NOR_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_490.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_491">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_491"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Address Finder Search button is not displayed in the Registration page when USEGAF Config paramtere is set as False in Plintron CRM Application for Norway"/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_491.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_1914">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_1914"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whehter csAgent user is successfully able to perform Without Personal Number Type Registration by selecting the ID type as Passport for Norway."/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_1914.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_1916">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_1916"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whehter csAgent user is successfully able to perform Without Personal Number Type Registration by selecting the ID type as Asylum Card for Norway."/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_1916.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="NOR_REGISTRATION_1918">
+      <parameter name="testcaseName" value="NOR_REGISTRATION_1918"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whehter csAgent user is successfully able to perform Without Personal Number Type Registration by selecting the ID type as Driving Licence for Norway."/>
+      <parameter name="testCategory" value="Auto_NORWAY_REGISTRATION"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/NOR_REGISTRATION_1918.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_296">
+      <parameter name="testcaseName" value="AUT_Registration_296"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether registration is  getting successful on giving the minimum characters in all the fields in the austria registration page of the CRM application."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_296.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_299">
+      <parameter name="testcaseName" value="AUT_Registration_299"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the GETACCOUNTDETAILS request is sent to RRBS while REGISTRATIONPORTOUTCHECK tag is true in the CRMtblconfigitems."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_299.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_300">
+      <parameter name="testcaseName" value="AUT_Registration_300"/>
+      <parameter name="testcaseDesc"
+                 value="Verify Austria registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as &#34;False&#34;, SendPrefLanguagetoRRBS tag value &#34;1&#34;, PrefLanguageConfig value &#34;1&#34;, SMSMarkettingEnabler value &#34;1&#34;."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_300.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_301">
+      <parameter name="testcaseName" value="AUT_Registration_301"/>
+      <parameter name="testcaseDesc"
+                 value="Verify Austria registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as &#34;True&#34;, SendPrefLanguagetoRRBS tag value &#34;1&#34;, PrefLanguageConfig value &#34;0&#34;, SMSMarkettingEnabler value &#34;0&#34;."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_301.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_302">
+      <parameter name="testcaseName" value="AUT_Registration_302"/>
+      <parameter name="testcaseDesc"
+                 value="Verify updated successfully alert message is displayed on Editing all the available fields with maximum characters in Edit registration page in Austria."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_302.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_306">
+      <parameter name="testcaseName" value="AUT_Registration_306"/>
+      <parameter name="testcaseDesc"
+                 value="Verify Search symbol beside postcode field gets disappear on keeping DisableGAFEnableManualEntry tag value as &#34;1&#34;."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_306.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_320">
+      <parameter name="testcaseName" value="AUT_Registration_320"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the registration is not success while filling the optional fields alone in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_320.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_312">
+      <parameter name="testcaseName" value="AUT_Registration_312"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the numeric characters are allowed in the textfields present in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_312.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_313">
+      <parameter name="testcaseName" value="AUT_Registration_313"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the alphabetic characters are allowed in the textfields present in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_313.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_314">
+      <parameter name="testcaseName" value="AUT_Registration_314"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the special characters are allowed in the textfields present in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_314.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_315">
+      <parameter name="testcaseName" value="AUT_Registration_315"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the alphanumeric characters are allowed in the textfields present in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_315.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_316">
+      <parameter name="testcaseName" value="AUT_Registration_316"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the alphanumeric specialcharacters are allowed in the textfields present in the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_316.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_318">
+      <parameter name="testcaseName" value="AUT_Registration_318"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the user can able to enter maximum number of characters in all the fields of the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_318.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_319">
+      <parameter name="testcaseName" value="AUT_Registration_319"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the user can't able to enter more than maximum number of characters in all the fields of the Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_319.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_321">
+      <parameter name="testcaseName" value="AUT_Registration_321"/>
+      <parameter name="testcaseDesc"
+                 value="Verify valid alert message &#34;Restricted Email ID&#34; is not displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_321.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_322">
+      <parameter name="testcaseName" value="AUT_Registration_322"/>
+      <parameter name="testcaseDesc"
+                 value="Verify valid alert message &#34;Restricted Email ID&#34; is not displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in Austria Edit registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_322.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_001">
+      <parameter name="testcaseName" value="FRA_Registration_001"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully, uploaded ID proof document is updated in configured SFTP path and valid alert message is displayed in the front end after successful registration on keeping isAttachmentMand value as `TRUE`, ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1`, UseGAF tag value as `TRUE` using PUK code."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_002">
+      <parameter name="testcaseName" value="FRA_Registration_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully, uploaded ID proof document is updated in configured SFTP path and valid alert message is displayed in the front end after successful registration on keeping isAttachmentMand value as `TRUE`, ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1`, UseGAF tag value as `TRUE` using MSISDN."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_003">
+      <parameter name="testcaseName" value="FRA_Registration_003"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully, uploaded ID proof document is updated in configured SFTP path and valid alert message is displayed in the front end after successful registration on keeping isAttachmentMand value as `TRUE`, ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1`, UseGAF tag value as `TRUE` and giving maximum characters in FRANCE registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_004">
+      <parameter name="testcaseName" value="FRA_Registration_004"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully, uploaded ID proof document is updated in configured SFTP path and valid alert message is displayed in the front end after successful registration on keeping isAttachmentMand value as `TRUE`, ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1`, UseGAF tag value as `TRUE` and giving minimum characters in FRANCE registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_004.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_005">
+      <parameter name="testcaseName" value="FRA_Registration_005"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1` using 5 PUK code."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_005.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_006">
+      <parameter name="testcaseName" value="FRA_Registration_006"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1` using 5 MSISDN."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_009">
+      <parameter name="testcaseName" value="FRA_Registration_009"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message not displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in FRANCE registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_009.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_013">
+      <parameter name="testcaseName" value="FRA_Registration_013"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message not displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in FRANCE Edit registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_013.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_016">
+      <parameter name="testcaseName" value="FRA_Registration_016"/>
+      <parameter name="testcaseDesc"
+                 value="To verify updated successfully alert message is displayed on Editing all the available fields in Edit registration page in France on keeping ISAttachmentMandEdit value as `TRUE` for PUK code registered customer."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_016.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_017">
+      <parameter name="testcaseName" value="FRA_Registration_017"/>
+      <parameter name="testcaseDesc"
+                 value="To verify updated successfully alert message is displayed on Editing all the available fields in Edit registration page in France on keeping ISAttachmentMandEdit value as `TRUE` for MSISDN registered customer."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_017.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_018">
+      <parameter name="testcaseName" value="FRA_Registration_018"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE Edit registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1` and giving maximum characters in all the fields in FRANCE Edit registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_018.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="FRA_Registration_019">
+      <parameter name="testcaseName" value="FRA_Registration_019"/>
+      <parameter name="testcaseDesc"
+                 value="To verify FRANCE Edit registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end after successful registration on keeping ESMESMSEnabler tag value as `False`, SendPrefLanguagetoRRBS tag value `1`, PrefLanguageConfig value `1`, SMSMarkettingEnabler value `1` and giving minimum characters in all the fields in FRANCE Edit registration page."/>
+      <parameter name="testCategory" value="FRA_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/FRA_Registration_019.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_535">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_535"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success through ReD Gateway when user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_535.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_538">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_538"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether VAT amount also should be added with total amount for payment and VatId should be updated when the First Topup is done through ReD Gateway from plintron CRM application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_538.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_568">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_568"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether CardType is updated as 8 in tblusercarddetails table when user performs First Topup through MasterCard Credit Card from Plintron CRM Application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_568.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_529">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_529"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether application should call `EShopCardPayment` method for First Topup from Plintron CRM application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_529.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_531">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_531"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether PreviousOrderId and PreviousMerchantcode is updated with new OrderId and merchantcode in tblusercarddetails table when the second payment is processed for same subscriber and same card details through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_531.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_533">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_533"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether VAT amount also should be added with total amount for payment and VatId should be updated when the First Topup is done through WorldPay Gateway from plintron CRM application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_533.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_549">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_549"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether CardType is updated as 8 in tblusercarddetails table when user performs First Topup through MasterCard Credit Card from Plintron CRM Application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_549.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_540">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_540"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success through Authorize .Net Gateway when user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_540.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_543">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_543"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether VAT amount also should be added with total amount for payment and VatId should be updated when the First Topup is done through Authorize .Net Gateway from plintron CRM application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_543.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_570">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_570"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether CardType is updated as 8 in tblusercarddetails table when user performs First Topup through MasterCard Credit Card from Plintron CRM Application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_570.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_697">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_697"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup should be mapped in tblusercarddetails when user performs First Topup with AutoTopup enabled from Plintron CRM Application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_697.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_BundlePurchase_WP_698">
+      <parameter name="testcaseName" value="GBR_BundlePurchase_WP_698"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Bundle Renewal should be mapped in tbluserbundledetails when user purchase bundle with renewal enabled from Plintron CRM Application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_BundlePurchase"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_BundlePurchase_WP_698.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_702">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_702"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether application should call `EShopPayment` method for Repeat Topup from Plintron CRM application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_702.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_703">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_703"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through WorldPay Gateway when the First Topup is done through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_703.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_704">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_704"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through WorldPay Gateway when the First Topup is done through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_704.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_705">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_705"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup Renewal should get success through WorldPay Gateway when the First Topup is done through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_AUTO_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_705.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_707">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_707"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup Renewal should get success through WorldPay Gateway when the First Topup is done through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_AUTO_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_707.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_713">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_713"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup should be mapped in tblusercarddetails when user performs First Topup with AutoTopup enabled from Plintron CRM Application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_713.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_BundlePurchase_ReD_714">
+      <parameter name="testcaseName" value="GBR_BundlePurchase_ReD_714"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Bundle Renewal should be mapped in tbluserbundledetails when user purchase bundle with renewal enabled from Plintron CRM Application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_BundlePurchase"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_BundlePurchase_ReD_714.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_715">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_715"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Ip address sent from the channel should be updated in tbleshoptransactionstatus table when user performs First Topup from Plintron CRM Application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_715.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_718">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_718"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether application should call `EShopPayment` method for Repeat Topup from Plintron CRM application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_718.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_719">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_719"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through ReD Gateway when the First Topup is done through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_719.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_720">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_720"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through ReD Gateway when the First Topup is done through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_720.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_530">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_530"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup should be mapped in tblusercarddetails when user performs First Topup with AutoTopup enabled from Plintron CRM Application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_530.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_BundlePurchase_AuthNet_731">
+      <parameter name="testcaseName" value="GBR_BundlePurchase_AuthNet_731"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Bundle Renewal should be mapped in tbluserbundledetails when user purchase bundle with renewal enabled from Plintron CRM Application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_BundlePurchase"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_BundlePurchase_AuthNet_731.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_732">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_732"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Ip address sent from the channel should be updated in tbleshoptransactionstatus table when user performs First Topup from Plintron CRM Application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_732.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_735">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_735"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether application should call `EShopPayment` method for Repeat Topup from Plintron CRM application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_735.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_737">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_737"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through Authorize .Net Gateway when the First Topup is done through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_737.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_REPEAT_TOPUP_736">
+      <parameter name="testcaseName" value="GBR_REPEAT_TOPUP_736"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Repeat Topup should get success from Plintron CRM Application through Authorize .Net Gateway when the First Topup is done through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_REPEAT_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_REPEAT_TOPUP_736.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_738">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_738"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup Renewal should get success through Authorize .Net Gateway when the First Topup is done through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_AUTO_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_738.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_740">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_740"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether AutoTopup Renewal should get success through Authorize .Net Gateway when the First Topup is done through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_AUTO_TOPUP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_740.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Bundle_Purchase_010">
+      <parameter name="testcaseName" value="GBR_Bundle_Purchase_010"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the setting symbol for the query bundle calculation is displayed after entering the mandatory fields in CRM bundle subscription page."/>
+      <parameter name="testCategory" value="GBR_BundlePurchase"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Bundle_Purchase_010.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Bundle_Purchase_013">
+      <parameter name="testcaseName" value="GBR_Bundle_Purchase_013"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify Bundle Topup is successful for DateTimeFormat  = &#34;MM DD YYYY&#34;"/>
+      <parameter name="testCategory" value="GBR_BundlePurchase"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Bundle_Purchase_013.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DATA_BILL_SHOCK_001">
+      <parameter name="testcaseName" value="GBR_DATA_BILL_SHOCK_001"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the home financial limit and roam data limit in the datausage limit page."/>
+      <parameter name="testCategory" value="GBR_DATA_BILL_SHOCK"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DATA_BILL_SHOCK_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DATA_BILL_SHOCK_002">
+      <parameter name="testcaseName" value="GBR_DATA_BILL_SHOCK_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the data can be given in GB(unit) in the data usage limit page."/>
+      <parameter name="testCategory" value="GBR_DATA_BILL_SHOCK"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DATA_BILL_SHOCK_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DATA_BILL_SHOCK_003">
+      <parameter name="testcaseName" value="GBR_DATA_BILL_SHOCK_003"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the data can be given in KB(unit) in the data usage limit page."/>
+      <parameter name="testCategory" value="GBR_DATA_BILL_SHOCK"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DATA_BILL_SHOCK_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Debit_001">
+      <parameter name="testcaseName" value="GBR_Debit_001"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Request sucessfully submitted&#34; success message gets displayed on submitting request using the  agent login and History gets displayed with the submitted record on clicking &#34;History&#34; button in the Debit page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Debit_002">
+      <parameter name="testcaseName" value="GBR_Debit_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Request has been already submited for same reason. waiting for approval&#34; error message gets displayed when unapproved request for the same reason already exists in the Trndebit table."/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Debit_003">
+      <parameter name="testcaseName" value="GBR_Debit_003"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Successfully Authorised Old Balance is : 100.0000 New Balance is : 90.0000&#34; success message is displayed"/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

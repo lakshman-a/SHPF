@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Parallel_1_IE_1" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_01">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_01"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the sim block request with the minimum number of characters in the ticketid and reason field."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_03">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_03"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the sim block/unblock request with less than the minimum number of characters in the ticketid and reason field."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_03.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_04">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_04"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we are unable to submit the sim block/unblock request with the more than the maximum characters in the ticketid and reason field."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_04.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_05">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_05"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the sim unblock request is getting success while filling the mandatory fields alone in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_06">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_06"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the sim block/unblock request fails while filling the optional fields alone in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_06.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_07">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_07"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alphabets are allowed to enter in the textfields present in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_07.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_08">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_08"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the numerals are allowed to enter in the textfields present in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_09">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_09"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special characters are allowed to enter in the textfields present in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_09.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_12">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_12"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to approve the sim block request through the admin approvals page in the CRM application."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_13">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_13"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to approve the sim unblock request through the admin approvals page in the CRM application."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_14">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_14"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to reject the pending sim block request in the pending approval page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_14.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_15">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_15"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to reject the pending sim unblock request in the pending approval page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_15.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_17">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_17"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the valid alert message &#34;Sim is in active state&#34; is displayed while we try to submit the sim unblock request for the already unblocked MSISDN."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_17.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_18">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_18"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the valid alert message &#34;Sim already blocked&#34; is displayed while we try to submit the sim block request for the already blocked MSISDN."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_18.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_SIM_BLOCK_UNBLOCK_19">
+      <parameter name="testcaseName" value="GBR_SIM_BLOCK_UNBLOCK_19"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the valid alert message &#34;Invalid ticketid&#34; is displayed while giving the invalid ticketid in the sim block page."/>
+      <parameter name="testCategory" value="SIM_BLOCK_UNBLOCK_GBR"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_SIM_BLOCK_UNBLOCK_19.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_01">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_01"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_02">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_02"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with flat discount amount when user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_02.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_03">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_03"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with percent discount amount when user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_03.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_04">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_04"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected  When user applied invalid promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_04.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_05">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_05"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the user is able to do First Topup without Promocode."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_08">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_08"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When User enters a Invalid Postal Code for First Topup"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_09">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_09"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup by entering the address maually in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_09.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_12">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_12"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether REPEAT TOPUP is success when user Performs REPEAT TOPUP from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_13">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_13"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do REPEAT TOPUP with flat discount amount when user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_14">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_14"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do REPEAT TOPUP with percent discount amount when user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_14.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_15">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_15"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected  When user applied invalid promo code for REPEAT TOPUP."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_15.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_16">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_16"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the user is able to do REPEAT TOPUP without Promocode."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_16.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_19">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_19"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When performs Repeat TopUp without entering CVV Number"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_19.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_20">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_20"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When submits Repeat TopUp without entering any value."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_20.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_23">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_23"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CsAgent user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_23.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_24">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_24"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with flat discount amount when CsAgent user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_24.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_27">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_27"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the CsAgent user is able to do First Topup without Promocode."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_27.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_30">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_30"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When CsAgent user enters a Invalid Postal Code for First Topup"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_30.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_31">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_31"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup by entering the address maually in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_31.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_34">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_34"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether REPEAT TOPUP is success when CsAgent user Performs REPEAT TOPUP from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_34.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_35">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_35"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do REPEAT TOPUP with flat discount amount when CsAgent user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_35.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_36">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_36"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do REPEAT TOPUP with percent discount amount when CsAgent user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_36.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_37">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_37"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected  When CsAgent user applied invalid promo code for REPEAT TOPUP."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_37.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_38">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_38"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the CsAgent user is able to do REPEAT TOPUP without Promocode."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_38.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_41">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_41"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When CsAgent user enters a Invalid Postal Code for REPEAT TOPUP"/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_41.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_42">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_42"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do REPEAT TOPUP by entering the address maually in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_42.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_45">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_45"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CsAgent user selects others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_45.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_46">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_46"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when Admin user selects others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_46.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_47">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_47"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when Admin user selects topup amount with decimal in others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_47.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TOPUP_48">
+      <parameter name="testcaseName" value="GBR_ONLINE_TOPUP_48"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CSagent user selects topup amount with decimal in others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR ONLINE TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TOPUP_48.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_01">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_01"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to enable Autotop Subscription for a Registered User from AutoTopup page"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_02">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_02"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to disable Autotop Subscription for a Registered User from AutoTopup page"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_02.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_03">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_03"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to Reset the Values entered in Autotop Subscription Page for a Registered User"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_03.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_04">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_04"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether csagent user is able to enable Autotop Subscription for a Registered User from AutoTopup page"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_04.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_05">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_05"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether csagent user is able to disable Autotop Subscription for a Registered User from AutoTopup page"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_AUTO_TOPUP_06">
+      <parameter name="testcaseName" value="GBR_AUTO_TOPUP_06"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether csagent user is able to Reset the Values entered in Autotop Subscription Page for a Registered User"/>
+      <parameter name="testCategory" value="GBR AUTO TOPUP"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_AUTO_TOPUP_06.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_02">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_02"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email Id of the Registered MSISDN is prepoplulated in the MSISDN Safe Custody Subscription  Page when accessed as Admin User."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_02.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_03">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_03"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether by default the status is displayed as Deactivate in MSISDN Safe Custody Page for the MSISDN for which Safe Custody is not yet activated."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_03.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_04">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_04"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email ID field dislayed in the MSISDN SafeCustody page is displayed as mandatory when Admin user sets the Value for the Config Param `EmailMandatoryForNumberLocker ` as ON."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_04.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_07">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_07"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the SafeHolding Fee Displayed for the selected SafeHold Period is same as configured in CBOS."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_07.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_08">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_08"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether proper Error message is displayed when Admin User tires to activate Safe Custody for a MSISDN for which Topup-FaceValue  is less than the safeHold Fee"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_09">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_09"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the Start Date Picker Displayes the date based on the value configured for NLFutureDatePicker Config parameter"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_09.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_11">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_11"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email Id of the Registered MSISDN is prepoplulated in the MSISDN Safe Custody Subscription  Page when accessed as csagent User."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_11.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_12">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_12"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether SafeHold Fee is displayed for the safe Hold Months for which fee is not Configured in CBOS."/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_NUMBER_SAFE_CUSTODY_13">
+      <parameter name="testcaseName" value="GBR_NUMBER_SAFE_CUSTODY_13"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin User is successfully able to Deactivate a MSISDN Safe Custody for a Registered MSISDN"/>
+      <parameter name="testCategory" value="GBR NUMBER SAFE CUSTODY"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_NUMBER_SAFE_CUSTODY_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_01">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_01"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the bundle details are retrieved from RRBS_SUBS_BUNDLE_BUCKETS table and dispalyed in the grid with &#34;bundle name, expiry date,On-net Zone name, On-net Minutes, On-net sms, Zone 1 name, Zone1 free minutes, Zone 1 free sms,  Zone 2 name, Zone2 free minutes, Zone 2free sms,  Zone 3 name, Zone3 free minutes, Zone 3 free sms, Free data, Free MT on-net,  Free MT SMS on-net, Free MT other calls, Free MT sms other, On-net MT BundleType, Auto renewal , Bundle balance, Roam usage and Local roam usage&#34; on navigating to the Bundle modify page with the bundle purchased subscriber via admin login."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_02">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_02"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the bundle details are retrieved from RRBS_SUBS_BUNDLE_BUCKETS table and dispalyed in the grid with &#34;bundle name, expiry date,On-net Zone name, On-net Minutes, On-net sms, Zone 1 name, Zone1 free minutes, Zone 1 free sms,  Zone 2 name, Zone2 free minutes, Zone 2free sms,  Zone 3 name, Zone3 free minutes, Zone 3 free sms, Free data, Free MT on-net,  Free MT SMS on-net, Free MT other calls, Free MT sms other, On-net MT BundleType, Auto renewal , Bundle balance, Roam usage and Local roam usage&#34; on navigating to the Bundle modify page with the bundle purchased subscriber via agent login."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_02.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_03">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_03"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to add the Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance)  in the bundle modify page via admin as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_03.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_04">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_04"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to subtract the Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowance and bundle balance(Common allowance) in the bundle modify page via admin as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_04.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_05">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_05"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to replace the Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page via admin as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_06">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_06"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the request for addition of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page via agent as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_06.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_07">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_07"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the request for subtraction of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page via admin as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_07.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_08">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_08"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the request for replacing of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page via admin as the user."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_09">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_09"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to approve the request for addition of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_09.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_10">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_10"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to approve the request for subtraction of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_10.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_11">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_11"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to approve the request for replacing of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_11.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_12">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_12"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Highlighted fields are mandatory&#34; is displayed in the frontend while we enter approve button without selecting bundle code and service type in the bundle modify page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_13">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_13"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;select any one item&#34; is displayed in the frontend while we clickon approve button after selecting bundle code and service type alone."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_14">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_14"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the entered details are refreshed while we selecting the reset button in the bundle modify page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_14.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_15">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_15"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to modify the expiry date of the bundle using the bundle modify page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_15.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_16">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_16"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to reject the request for addition of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_16.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_17">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_17"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to reject the request for subtraction of  Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_17.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_18">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_18"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to reject the request for replacement of Offnet 1,2,3 voice allowances ,sms allowances, Data Onnet, Data domestic roaming, Data international roaming allowances and bundle balance(Common allowance) in the bundle modify page submitted by the agent in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR MODIFY SUBS BUNDLE"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_18.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_MODIFY_SUBS_BUNDLE_19">
+      <parameter name="testcaseName" value="GBR_MODIFY_SUBS_BUNDLE_19"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Entered date is modified successfully by the admin Login"/>
+      <parameter name="testCategory" value=""/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_MODIFY_SUBS_BUNDLE_19.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_01">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_01"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the all active bundles are displayed on selecting national bundle from bundle type drop down after navigating to CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_01.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_05">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_05"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the corresponding No of months as fixed or variable from mstbundletop table is displayed after selecting the national bundle in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_05.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_07">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_07"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the Bundle category as recursive,Non recursive or Add on &amp; Bundle description is displayed from mstbundletopup for the selected bundle in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_07.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_08">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_08"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the added value is removed from grid on clcking remove button in grid in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_10">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_10"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message from query bundle subscription is displayed correctly after clicking the  in CRM allinone page"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_10.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_12">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_12"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify Amount configured in `Bundle Config` of SMP is deducted from Subscriber Account balance and Topup face value in RRBS_SUBSCRIBER_PROFILE after Successful Bundle TopUp (Do Bundle Topup with all features)"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_13">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_13"/>
+      <parameter name="testcaseDesc"
+                 value="To verify OFFNET zone offers are inserted in RRBS_SUBSCRIBER_PROFILE table after successful bundle topup (Do Bundle Topup with all features)"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_14">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_14"/>
+      <parameter name="testcaseDesc"
+                 value="To verify ONNET Min and SMS ,data,ONNET MT mIn and sms ,OFFNET MT mIn and sms values  are inserted in RRBS_SUBS_BUNDLE_BUCKETS  after successful bundle topup. (Do Bundle Topup with all features)"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_14.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_15">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_15"/>
+      <parameter name="testcaseDesc"
+                 value="To verify records are inserted in RRBS_SUBS_THRESH_LIMIT table after successful bundle topup. (Do Bundle Topup with all features)"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_15.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_16">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_16"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message thershold limit reached is displayed in query bundle subscription for the subscriber when the onnet limit counter or bundle counter reached in CRM allinone page"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_16.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_81">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_81"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed When User enters a Invalid Postal Code for Topup in CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_81.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_82">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_82"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do Topup by entering the address maually in Plintron CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_82.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_84">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_84"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs first Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_84.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_85">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_85"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether TOPUP is success when user Performs Topup with existing card from Plintron CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_85.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_86">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_86"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do REPEAT TOPUP with flat discount amount when user applied valid Promo code in CRM allinone page"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_86.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_87">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_87"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do REPEAT TOPUP with percent discount amount when user applied valid Promo code in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_87.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_88">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_88"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected  When user applied invalid promo code for REPEAT TOPUP in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_88.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_89">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_89"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the user is able to do REPEAT TOPUP without Promocode in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_89.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_92">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_92"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs REPEAT TOPUP in Plintron CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_92.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_93">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_93"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Topup is success when CsAgent user selects others option and Performs Topup from Plintron CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_93.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_94">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_94"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Topup is success when CSagent user selects topup amount with decimal in others option and Performs First Topup from Plintron CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_94.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

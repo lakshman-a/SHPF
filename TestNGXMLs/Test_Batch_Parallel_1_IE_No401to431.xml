@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Parallel_1_IE_5" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="GBR_Network_Feature_2170">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2170"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the USSD  in Network Features window when USSDMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2170.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2171">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2171"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the USSD  in Network Features window when USSDMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2171.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2173">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2173"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the VMS  in Network Features window when VMSMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2173.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2174">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2174"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the VMS  in Network Features window when VMSMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2174.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2176">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2176"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the Topup  in Network Features window when TopupMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2176.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2177">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2177"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the Topup  in Network Features window when TopupMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2177.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2179">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2179"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MHA  in Network Features window when MHAMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2179.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_295">
+      <parameter name="testcaseName" value="AUT_Registration_295"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message &#34;Already registered&#34; is displayed on submitting the already registered MSISDN  in the new subscriber section of the homepage."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_295.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_297">
+      <parameter name="testcaseName" value="AUT_Registration_297"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message &#34;Enter valid countrycode&#34; is displayed while giving theMSISDN with invalid countrycode and click on register in the new subscriber section."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_297.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_298">
+      <parameter name="testcaseName" value="AUT_Registration_298"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message &#34;MSISDN is portedout&#34; is displayed while giving the ported out MSISDN and click on register in the new subscriber section."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_298.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_305">
+      <parameter name="testcaseName" value="AUT_Registration_305"/>
+      <parameter name="testcaseDesc"
+                 value="Verify Search symbol beside postcode field gets appear on keeping DisableGAFEnableManualEntry tag value as &#34;0&#34;."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_305.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_308">
+      <parameter name="testcaseName" value="AUT_Registration_308"/>
+      <parameter name="testcaseDesc"
+                 value="Verify valid alert message &#34;Restricted Email ID&#34; is displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as true in Austria registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_308.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_311">
+      <parameter name="testcaseName" value="AUT_Registration_311"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the alert message&#34;Enter Valid E-Mailid&#34; is displayed when invalid email address is submitted in Registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_311.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_317">
+      <parameter name="testcaseName" value="AUT_Registration_317"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the Austria registration is getting successful after filling the mandatory fields alone in the registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_317.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_310">
+      <parameter name="testcaseName" value="AUT_Registration_310"/>
+      <parameter name="testcaseDesc"
+                 value="Verify &#34;SIM is not associated to Reseller&#34; alert message is displayed, on registering with Valid MSISDN and invalid PUK number&#xA;or invalid MSISDN and valid PUK number in AUT Registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_310.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_303">
+      <parameter name="testcaseName" value="AUT_Registration_303"/>
+      <parameter name="testcaseDesc"
+                 value="Verify all the details are given during registration are diplayed on clicking View registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_303.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="AUT_Registration_309">
+      <parameter name="testcaseName" value="AUT_Registration_309"/>
+      <parameter name="testcaseDesc"
+                 value="Verify valid alert message &#34;Restricted Email ID&#34; is displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as true in Austria Edit registration page."/>
+      <parameter name="testCategory" value="AUT_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/AUT_Registration_309.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_001">
+      <parameter name="testcaseName" value="GBR_Send_Sim_001"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing single sim without any payment in GBR send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_002">
+      <parameter name="testcaseName" value="GBR_Send_Sim_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing single sim with topup in GBR Send sim page"/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_003">
+      <parameter name="testcaseName" value="GBR_Send_Sim_003"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing three(multiple) sims with topup in GBR Send sim page"/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_014">
+      <parameter name="testcaseName" value="GBR_Send_Sim_014"/>
+      <parameter name="testcaseDesc"
+                 value="To verify, valid alert `promo will not be applied for discount applied bundle` is displayed on applying promo code for discount applied bundle in send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_014.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_007">
+      <parameter name="testcaseName" value="GBR_Send_Sim_007"/>
+      <parameter name="testcaseDesc"
+                 value="To verify, `Highlighted Fields are Mandatory ` alert is displayed with all fields are highlighted in red colour on clicking next button without entering any values in personal details section in send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_007.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_695">
+      <parameter name="testcaseName" value="GBR_Send_Sim_695"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Card Start date should be updated in tblusercarddetails table when the Card start date is sent from the Plintron CRM application through WorldPay Gateway."/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_695.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_711">
+      <parameter name="testcaseName" value="GBR_Send_Sim_711"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Card Start date should be updated in tblusercarddetails table when the Card start date is sent from the Plintron CRM application through ReD Gateway."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_711.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_728">
+      <parameter name="testcaseName" value="GBR_Send_Sim_728"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether Card Start date should be updated in tblusercarddetails table when the Card start date is sent from the Plintron CRM application through Authorize .Net Gateway."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_728.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1573">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1573"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the agent profile page is displayed when we click on agent profile in the gear icon present in the admin logged page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1573.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1574">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1574"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the agent profile page is displayed when we click on agent profile in the gear icon present in the agent logged page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1574.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1576">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1576"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message &#34;Highlighted Fields are mandatory&#34; is displayed when we click on update button without entering the mandatory fields password, new password and retype new password in the agent profile page."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1576.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1644">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1644"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message&#34;Not Equal&#34; is displayed when we enter different passwords in the new password and retype new password fields."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1644.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1645">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1645"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the valid alert message &#34;Old Password is not correct&#34; is displayed in the frontend while submitting the invalid old password in the agent profile page."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1645.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Agent_Profile_1577">
+      <parameter name="testcaseName" value="GBR_Agent_Profile_1577"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the new password is updated successfully  is displayed in the frontend when we enter valid details in the agent profile page."/>
+      <parameter name="testCategory" value="GBR_Agent_Profile"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Agent_Profile_1577.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

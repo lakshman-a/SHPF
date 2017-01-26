@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Serial_1_IE_3" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="GBR_OBA_CR_PAY_PCM001582">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001582"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the paynow button is disabled when consumed value is 0 in OBA credit pyament page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001582.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001626">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001626"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the cancel bundle button is enabled &amp; user is able to cancel the OBA bundle by the selecting the bundle code as admin in OBA credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001626.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001627">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001627"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the cancel bundle button is enabled &amp; user is able to submit the cancel request for the OBA bundle by the selecting the bundle code as cs agent user in OBA credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001627.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001652">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001652"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to pay the OBA credit with new credit card in CRM OBA credit payment page on selecting the address manually."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001652.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001653">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001653"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to pay the OBA credit with new credit card in CRM OBA credit payment page on checking use card for renewal option."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001653.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001628">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001628"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the bundle plan is successfully upgraded when user select the valid oba bundle in bundle upgrade option in OBA credit payment page as an admin user."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001628.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001629_30">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001629_30"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the bundle plan is successfully upgraded when user select the valid oba bundle in bundle upgrade option in OBA credit payment page as an admin user."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001629_30.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001631">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001631"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the additional credit is successfully added when user giving the valid credit amount in OBA credit payment page as an admin user."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001631.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001632_33">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001632_33"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the OBA additional credit request is approved successfully from pending approvalOBA Additional Credit for the request submitted by agent in CRM application."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001632_33.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001172">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001172"/>
+      <parameter name="testcaseDesc"
+                 value="To verify addition of child addition is successful through Credit Card in CRM Manage family plan page."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001172.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_002">
+      <parameter name="testcaseName" value="USA_Registration_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify USA registration is successful, Mail and SMS sent successfully in the selected language and valid alert message is displayed in the front end and set SMSMarkettingEnabler value as '0'"/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_006">
+      <parameter name="testcaseName" value="USA_Registration_006"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Search symbol beside postcode field gets appear on keeping UseGAF tag value as 'TRUE'"/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_007">
+      <parameter name="testcaseName" value="USA_Registration_007"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Search symbol beside postcode field gets disappear on keeping UseGAF tag value as 'FALSE'"/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_007.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_009">
+      <parameter name="testcaseName" value="USA_Registration_009"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and &#xA;keeping RESTRICTED_MAIL_ID_CHECK tag value as true in USA registration page."/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_009.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_010">
+      <parameter name="testcaseName" value="USA_Registration_010"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and &#xA;keeping RESTRICTED_MAIL_ID_CHECK tag value as true in USA Edit registration page."/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_010.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_013">
+      <parameter name="testcaseName" value="USA_Registration_013"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message not displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in USA registration page."/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_013.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Registration_014">
+      <parameter name="testcaseName" value="USA_Registration_014"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert message displayed on giving mail id configured in RESTRICTED_MAIL_IDS tag and keeping RESTRICTED_MAIL_ID_CHECK tag value as false in USA Edit registration page."/>
+      <parameter name="testCategory" value="USA PrePaid_Registration"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Registration_014.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0841">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0841"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with flat discount amount when user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0841.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0842">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0842"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with percent discount amount when user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0842.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0843">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0843"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected When user applied invalid promo code for First Topup"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0843.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0848">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0848"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup by entering the address maually in Plintron CRM Application"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0848.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0850">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0850"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs first Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0850.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0851">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0851"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CsAgent user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0851.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0852">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0852"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with flat discount amount when CsAgent user applied valid Promo code"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0852.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0853">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0853"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with percent discount amount when CsAgent user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0853.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0854">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0854"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected When CsAgent user applied invalid promo code for First Topup"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0854.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0855">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0855"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the CsAgent user is able to do First Topup without Promocode."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0855.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0859">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0859"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup by entering the address maually in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0859.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0861">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0861"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when CsAgent user Performs first Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0861.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0862">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0862"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CsAgent user selects others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0862.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0863">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0863"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when Admin user selects others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0863.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0864">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0864"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when Admin user selects topup amount with decimal in others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0864.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_0865">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_0865"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CSagent user selects topup amount with decimal in others option and Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_0865.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0788">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0788"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0788.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0789">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0789"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with flat discount amount when user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0789.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0790">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0790"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup with percent discount amount when user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0790.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0791">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0791"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected When user applied invalid promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0791.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0792">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0792"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the user is able to do First Topup with Promocode which is of PromoType other than 2 in EXIBS DB."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0792.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0793">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0793"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed while payment got success and Topup got failed due to EXIBS down when user applied with invalid Promo code for First Topup"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0793.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0794">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0794"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed while payment got success and Topup got failed due to EXIBS down when user applied valid Promo code for First Topup"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0794.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0796">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0796"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do First Topup by entering the address maually in Plintron CRM Application"/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0796.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0798">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0798"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Email and SMS is triggered when User Performs first Topup in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0798.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0799">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0799"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether First Topup is success when CsAgent user Performs First Topup from Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0799.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0800">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0800"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with flat discount amount when CsAgent user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0800.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0801">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0801"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup with percent discount amount when CsAgent user applied valid Promo code."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0801.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0802">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0802"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Whether payment is made for the Topup Amount as selected When CsAgent user applied invalid promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0802.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0803">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0803"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the CsAgent user is able to do First Topup without Promocode."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0803.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0804">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0804"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed while payment got success and Topup got failed due to EXIBS down when CsAgent user applied with invalid Promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0804.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0805">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0805"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether appropriate alert message is displayed while payment got success and Topup got failed due to EXIBS down when CsAgent user applied valid Promo code for First Topup."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0805.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ONLINE_TP_WP_0807">
+      <parameter name="testcaseName" value="GBR_ONLINE_TP_WP_0807"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the CsAgent user is able to do First Topup by entering the address maually in Plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_ONLINE_TP_WP"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ONLINE_TP_WP_0807.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_29">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_29"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message `Unregister Subscriber` is displayed on navigating to allinone page with unregistered subscriber when `Allowonlyregcusforallinone` is true in config."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_29.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_30">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_30"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the fields of allinone page is displayed on navigating to allinone page with unregistered subscriber when `Allowonlyregcusforallinone` is false in config."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_30.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_31">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_31"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the fields of allinone page is displayed on navigating to allinone page with registered subscriber when `Allowonlyregcusforallinone` is configured as false in config."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_31.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_32">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_32"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with auto renewal for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_32.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_33">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_33"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success without auto renewal for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_33.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_37">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_37"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success for the national bundle on clicking submit button in CRM allinone page with existing credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_37.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_34">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_34"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with discount for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_34.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_38">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_38"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with promo for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_38.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_39">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_39"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success for the international bundle on clicking submit button in CRM allinone page with existing credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_39.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_35">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_35"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success for the international bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_35.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_41">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_41"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success for the international bundle with VAT on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_41.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_36">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_36"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with discount for the international bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_36.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_40">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_40"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with promo for the international bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_40.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_42">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_42"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_42.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_43">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_43"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat &amp; discount for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_43.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_44">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_44"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat &amp; promo for the national bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_44.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_45">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_45"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat &amp; discount for the international bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_45.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_46">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_46"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat &amp; promo for the international bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_46.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_47">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_47"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat for the family bundle on clicking submit button in CRM allinone page with new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_47.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_48">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_48"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special bundle topup request is sent &amp; bundle topup is success with vat for the family bundle on clicking submit button in CRM allinone page with existing credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_48.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_49">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_49"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase srilanka bundle for national bundle in allinone page with new credit card &amp; with vat."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_49.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_50">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_50"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle with OBA renewal in CRM allinone purchase page using new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_50.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_55">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_55"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle with OBA renewal in CRM allinone purchase page using existing credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_55.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_51">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_51"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle without OBA renewal in CRM allinone purchase page using new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_51.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_52">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_52"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle with  checking the OBA renewal checkbox in CRM allinone purchase page using new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_52.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_53">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_53"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle without  checking the OBA renewal checkbox in CRM allinone purchase page using new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_53.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_54">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_54"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to purchase OBA bundle with OBA renewal &amp; VAT in CRM allinone purchase page using new credit card."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_54.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_56">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_56"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the topup amount is displayed in dropdown &amp; topup details are added in grid on clicking submit with topup amount in Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_56.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_57">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_57"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the topup is purchased successfully on submitting with valid topup in CRM allinone page"/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_57.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_58">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_58"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do Topup with flat discount amount when user applied valid Promo code in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_58.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_59">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_59"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to do Topup with percent discount amount when user applied valid Promo code in CRM allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_59.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_ALL_IN_ONE_60">
+      <parameter name="testcaseName" value="GBR_ALL_IN_ONE_60"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether the user is able to doTopup with Promocode which is of PromoType other than 2 in EXIBS DB in CRM Allinone page."/>
+      <parameter name="testCategory" value="AUTO_ALLINONE"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_ALL_IN_ONE_60.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_08">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_08"/>
+      <parameter name="testcaseDesc"
+                 value="To verify &#34;Plan Change is disabled&#34; error message gets disabled on setting PlanChangeEnabler as False in the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_08.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_09">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_09"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;New Plan ID not found in configuration file…&#34; error is displayed on submitting request in the Plan change page when the old or new planid is not updated in the PlanId.conf file in the exibs exe."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_09.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_10">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_10"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Service not allowed!&#34; error message gets displayed on submitting request in the Change Plan Page of the CRM application when PLAN_CHANGER - 0 in the RRBS_TOPUP_THRESHOLD_LIMIT table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_10.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_11">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_11"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Request submitted successfully!&#34; success message gets displayed on submitting request using the agent Login of the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_11.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_12">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_12"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether  `A same combination of unapproved plan change request already EXISTS`  gets displayed on submitting request using the agent Login for the msisdn with unapproved request in the Change Plan page of the CRM application where Plans from CBOS Plan Mater table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_12.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_13">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_13"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change request approved and SMS sent successfully!&#34; success message gets displayed on authorizing request using the admin Login of the CRM application where Plans from CBOS Plan Mater table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_13.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_14">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_14"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change Request Rejected Successfully and sms send successfully!&#34; success message gets displayed on Rejecting request using the admin Login of the CRM application where Plans from CBOS Plan Mater table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_14.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_15">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_15"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change request approved!&#34; success message gets displayed on authorizing request using the admin Login of the CRM application  where Plans from CBOS Plan Mater table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_15.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_16">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_16"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change Request Rejected Successfully!&#34; success message gets displayed on Rejecting request using the admin Login of the CRM application where Plans from CBOS Plan Mater table."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_16.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_17">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_17"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Highlighted fields are mandatory!&#34; Error message gets displayed on clicking Submit using agent login without choosing the new plan and entering reason and the field values gets resets on clicking reset in the Change Plan page of the CRM application where Plans are displayed from CBOS"/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_17.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_18">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_18"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Request submitted successfully!&#34; success message gets displayed on submitting request using the agent Login with ENABLEALLOWEDPLANS - 1 in the change plan page of the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_18.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_19">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_19"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change request approved and SMS sent successfully!&#34; success message gets displayed on authorizing request using the admin Login with ENABLEALLOWEDPLANS - 1 in the Change plan page of the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_19.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_20">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_20"/>
+      <parameter name="testcaseDesc"
+                 value="To verify &#34;Plan Change is disabled&#34; error message gets disabled on setting PlanChangeEnabler as False in the CRM application when using admin Login."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_20.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_21">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_21"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;New Plan ID not found in configuration file…&#34; error is displayed on submitting request using admin login in the Plan change page when the old or new planid is not updated in the PlanId.conf file in the exibs exe  by Admin"/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_21.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_22">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_22"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Service not allowed!&#34; error message gets displayed on submitting request using the admin Login in the Change Plan Page of the CRM application when PLAN_CHANGER - 0 in the RRBS_TOPUP_THRESHOLD_LIMIT table with Admin Login"/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_22.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_23">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_23"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether  `A same combination of unapproved plan change request already EXISTS`  gets displayed on submitting request using the admin Login for the msisdn with unapproved request in the Change Plan page of the CRM application"/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_23.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_24">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_24"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Plan Change Request Approved and sms send successfully!&#34; success message gets displayed on directly authorizing request using the admin Login of the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_24.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_CHANGE_PLAN_25">
+      <parameter name="testcaseName" value="USA_CHANGE_PLAN_25"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Last Plan Change less than or equal to the minimum period...&#34; error message gets displayed on clicking Approve in the Change plan page using the admin login when the last plan change date is less than the Minimum plan change date mentioned in the RRBS_TARIFF_PLAN table of the CRM application."/>
+      <parameter name="testCategory" value="USA_CHANGE_PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_CHANGE_PLAN_25.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

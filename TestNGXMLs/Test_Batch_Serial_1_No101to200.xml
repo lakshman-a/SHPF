@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Serial_1_2" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="GBR_Debit_004">
+      <parameter name="testcaseName" value="GBR_Debit_004"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Successfully Rejected&#34; success message gets displayed on rejecting request submitted by the agent using the admin login in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_004.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Debit_005">
+      <parameter name="testcaseName" value="GBR_Debit_005"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Request sucessfully submitted.Old Balance is : 182.0000. New Balance is : 172.0000.&#34; on submitting request directly using the admin loggin in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Debit"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_005.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1710">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1710"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MO Calls in Network Features window when MOCallsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1710.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1713">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1713"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MT Calls in Network Features window when MTCallsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1713.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1719">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1719"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MO Roaming Calls in Network Features window when MORoamingCallsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1719.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1722">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1722"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MT Roaming Calls in Network Features window when MTRoamingCallsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1722.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2157">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2157"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MO SMS  in Network Features window when MOSMSMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2157.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2160">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2160"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MT SMS  in Network Features window when MTSMSMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2160.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2163">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2163"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MO Roaming SMS  in Network Features window when MORoamingSmsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2163.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2166">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2166"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the MT Roaming SMS  in Network Features window when MTRoamingSmsMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2166.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2169">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2169"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the IVR  in Network Features window when IVRMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2169.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2172">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2172"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate the USSD  in Network Features window when USSDMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2172.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2175">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2175"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the VMS  in Network Features window when VMSMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2175.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2178">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2178"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user NOT able to activate/deactivate the Topup  in Network Features window when TopupMode Config Value is OFF in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2178.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_014">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_014"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to transfer the partial balance successfully  from one subscriber to other subscriber for Wrong Topup in the CRM application via admin as the user."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_014.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1257">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1257"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether all the bundle transactions which have not been refunded are displayed in Refundpayment page in bundle tab as returned from RRBS GET_TRANSACTION_HISTORY_RESPONSE."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1257.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1258">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1258"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether normal bundle amount purcahsed through creditcard is refunded successfully to credit card on selecting Action as &#34;Refund and Retain&#34; and Refund to as &#34;Creditcard&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1258.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1259">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1259"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether normal bundle amount purcahsed through creditcard is refunded successfully to credit card on selecting Action as &#34;Refund and Cancel&#34; and Refund to as &#34;Creditcard&#34;"/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1259.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1260">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1260"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether normal bundle amount purcahsed through creditcard is refunded successfully to account balance on selecting refundtype as &#34;Refund and Retain&#34; and Refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1260.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1261">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1261"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether normal bundle amount purcahsed through creditcard is refunded successfully to account balance on selecting refundtype as &#34;Refund and Cancel&#34; and Refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1261.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1264">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1264"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether partial bundle amount purchased through credit card is refunded successfully to credit card on selecting refund type as &#34;Refund and Retain&#34; and Refund to as &#34;Credit card&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1264.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1265">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1265"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether partial bundle amount purchased through credit card is refunded successfully to credit card on selecting refund type as &#34;Refund and Cancel&#34; and Refund to as &#34;Credit card&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1265.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1266">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1266"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether partial bundle amount purchased through credit card is refunded successfully to account balance on selecting refund type as &#34;Refund and Retain&#34; and Refund to as &#34;Account Balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1266.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1267">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1267"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether partial bundle amount purchased through credit card is refunded successfully to account balance on selecting refund type as &#34;Refund and Cancel&#34; and Refund to as &#34;Account Balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1267.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1272">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1272"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only vat amount and refunded with vat to creditcard when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;Credit card&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1272.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1273">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1273"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only vat and refunded with vat to creditcard when refund type is selected as &#34;Refund and cancel&#34; and refund to as &#34;creditcard&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1273.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1274">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1274"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only vat amount and refunded with vat to Accountbalance when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1274.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1275">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1275"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only vat amount and refunded with vat to Accountbalance when refund type is selected as &#34;Refund and cancel&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1275.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1262">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1262"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the normal bundle amount purchased through account balance is refunded successfully to account balance on selecting refund type as &#34;Refund and Retain&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1262.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1263">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1263"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the normal bundle amount purchased through account balance is refunded successfully to account balance on selecting refund type as &#34;Refund and Cancel&#34; and Refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1263.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1304">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1304"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether Bundle type, Auto renewal status, Mode of renewal and Expiry date fields are displayed in the overview tab in the allowance popup in Refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1304.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1305">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1305"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether Refund to option is displayed as Account balance by default in Refund popup when actual mode of purchase for the bundle is Account balance."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1305.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1314">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1314"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the status grid is displayed with the corresponding request id for the refund transaction for the specific MSISDN in the Status tab in Refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1314.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1315">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1315"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the Refund Status popup is displayed on clicking on the Request id in Status tab in Refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1315.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1306">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1306"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purchased through credit card is successfully refunded to creditcard on accessing the refund button present within the allowance popup in the refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1306.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1307">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1307"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purchased through credit card is successfully refunded to Accountbalance on accessing the refund button present within the allowance popup in the refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1307.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1318">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1318"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle refund is successful when admin approved the refund request from the pending approval page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1318.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Bundle_1319">
+      <parameter name="testcaseName" value="GBR_Refund_Bundle_1319"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether admin is allowed to be reject the bundle refund transaction initiated by the CS agent from the pending approval page."/>
+      <parameter name="testCategory" value="GBR_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Bundle_1319.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1268">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1268"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with vat and tax amount and refunded with vat and tax to creditcard when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;creditcard&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1268.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1269">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1269"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with vat and tax amount and refunded with vat and tax to creditcard when refund type is selected as &#34;Refund and cancel&#34; and refund to as &#34;creditcard&#34;"/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1269.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1270">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1270"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with vat and tax amount and refunded with vat and tax to Accountbalance when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1270.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1271">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1271"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with vat and tax amount and refunded with vat and tax to Accountbalance when refund type is selected as &#34;Refund and Cancel&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1271.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1276">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1276"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only tax amount and refunded with tax to creditcard when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;creditcard&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1276.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1277">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1277"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only tax amount and refunded with tax to creditcard when refund type is selected as &#34;Refund and Cancel&#34; and refund to as &#34;creditcard&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1277.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1278">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1278"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only tax amount and refunded with tax to Accountbalance when refund type is selected as &#34;Refund and retain&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1278.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Bundle_1279">
+      <parameter name="testcaseName" value="USA_Refund_Bundle_1279"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether bundle amount purcahsed through credit card with only tax amount and refunded with tax to Accountbalance when refund type is selected as &#34;Refund and Cancel&#34; and refund to as &#34;Account balance&#34;."/>
+      <parameter name="testCategory" value="USA_Refund_Bundle"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Bundle_1279.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1546">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1546"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the recent topup transaction to be refunded is displayed in Refundpayment page in Topup tab as returned from RRBS GET_TRANSACTION_HISTORY_RESPONSE."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1546.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1547">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1547"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether topup purchased through creditcard is refunded successfully to credit card on selecting Refund to as &#34;Creditcard&#34;."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1547.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1551">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1551"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether partial topup amount is refunded successfully to subscriber credit card, purchased through credit card."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1551.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1556">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1556"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the Refund Status popup is displayed on clicking on the Request id in Status tab in Refund payment page for topup transaction."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1556.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1559">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1559"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether topup refund is successful when admin approved the refund request from the pending approval page."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1559.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1560">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1560"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether admin is allowed to be reject the topup refund transaction initiated by the CS agent from the pending approval page."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1560.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1561">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1561"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether CS agent is allowed to reinitate the refund transaction rejected by CS admin from refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1561.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Refund_Topup_1562">
+      <parameter name="testcaseName" value="GBR_Refund_Topup_1562"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether admin is allowed to reinitate the refund transaction rejected by CS admin from refund payment page."/>
+      <parameter name="testCategory" value="GBR_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Refund_Topup_1562.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Topup_1548">
+      <parameter name="testcaseName" value="USA_Refund_Topup_1548"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether topup purchased through creditcard with VAT and TAX is refunded successfully to credit card with both VAT and TAX."/>
+      <parameter name="testCategory" value="USA_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Topup_1548.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Topup_1549">
+      <parameter name="testcaseName" value="USA_Refund_Topup_1549"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether topup purchased through creditcard with VAT and TAX is refunded successfully to credit card with topup and only VAT amount."/>
+      <parameter name="testCategory" value="USA_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Topup_1549.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Refund_Topup_1550">
+      <parameter name="testcaseName" value="USA_Refund_Topup_1550"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether topup purchased through creditcard with VAT and TAX is refunded successfully to credit card with topup and only TAX amount."/>
+      <parameter name="testCategory" value="USA_Refund_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/USA_Refund_Topup_1550.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_004">
+      <parameter name="testcaseName" value="GBR_Send_Sim_004"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert `Sim1 Do not have Bundle, Sim1 Do not have Topup` is displayed on clicking Addon Bundle without selecting Bundle radio button in SIM type section in Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_004.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_005">
+      <parameter name="testcaseName" value="GBR_Send_Sim_005"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert `Sim1 Do not have Bundle` alert is displayed on clicking next button without selecting bundle in bundle mandatory case."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_005.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_006">
+      <parameter name="testcaseName" value="GBR_Send_Sim_006"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert `Sim1 Do not have topup` alert is displayed on clicking next button without selecting topup in send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_008">
+      <parameter name="testcaseName" value="GBR_Send_Sim_008"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing single sim with topup and bundle(both NA and INA bundle) in GBR Send sim page"/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_008.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_009">
+      <parameter name="testcaseName" value="GBR_Send_Sim_009"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing three sims(multiple) with topup and bundle(both NA and INA bundle) in GBR Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_009.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_010">
+      <parameter name="testcaseName" value="GBR_Send_Sim_010"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing three sims(multiple) with topup and bundle(both NA and INA bundle)(2 sims) and without topup and bundles(1 sim) in GBR Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_010.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_011">
+      <parameter name="testcaseName" value="GBR_Send_Sim_011"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing three sims(multiple) with topup and bundle(both NA and INA bundle)(1 sims) and without topup and bundles(2 sims) in GBR Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_011.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_015">
+      <parameter name="testcaseName" value="GBR_Send_Sim_015"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing single sim with topup and bundle(both NA and INA bundle) with promo code in GBR Send sim page"/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_015.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_013">
+      <parameter name="testcaseName" value="GBR_Send_Sim_013"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing single sim with topup and bundle(both NA and INA bundle) with channel specific bundle cost applied in GBR Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_013.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_012">
+      <parameter name="testcaseName" value="GBR_Send_Sim_012"/>
+      <parameter name="testcaseDesc"
+                 value="To verify promo code field in send sim `sim type` tab disappear on keeping PromoCodeEnabler tag value as `false` in settings configuration page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_012.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Send_Sim_016">
+      <parameter name="testcaseName" value="GBR_Send_Sim_016"/>
+      <parameter name="testcaseDesc"
+                 value="To verify send sim registration is successful on purchasing three sims(multiple) with topup and bundle(both NA and INA bundle) with autorenewal in GBR Send sim page."/>
+      <parameter name="testCategory" value="GBR_Send_Sim"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Send_Sim_016.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1097">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1097"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Successfully authorised. Previous balance: 10.0000, New balance: 60.0000 and Bundle activated successfully&#34; message is displayed on directly authorizing request using the admin login when ticket id is mandatory with validation in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1097.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1098">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1098"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Highlighted Fields are Mandatory&#34; Error message is displayed when clicking authorize in the Staff topup page without entering values in the mandatory fields."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1098.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1099">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1099"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Invalid Ticket ID&#34; Error message is displayed on giving invalid ticket id when ticket Id field is set as mandatory with validation in the Staff topup page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1099.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1100">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1100"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Invalid Ticket ID&#34; Error message is displayed on giving invalid ticket id when ticket Id field is set as non mandatory without validation in the Staff topup page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1100.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1101">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1101"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether staff topup gets success with entering maximum chars in the text fields."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1101.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1102">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1102"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether staff topup gets success with entering minimum chars in the text fields."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1102.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_010">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_010"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether From Data and To Date Picker displayes the Days based on the Values Configured for the Config Param FromToDate when Accessed by Admin."/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_010.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Voucher_Status_006">
+      <parameter name="testcaseName" value="GBR_Voucher_Status_006"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the logs are captured in the CRM service logs while accessing the voucher status page."/>
+      <parameter name="testCategory" value="GBR_Voucher_Status"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Voucher_Status_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000417">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000417"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Call forwarding feature is disabled mode&#34; error is displayed when  CallForwardingMode config is set as 0 in the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000417.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000418">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000418"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to successfully activate call forwarding feature for Unconditional and the user is not able to enable other services like No Answer, Switched Off,  Busy when Unconditional is enabled in the Call Forwarding page of the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000418.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000419">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000419"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to successfully activate call forwarding feature for No Answer, Switched Off and Busy in the Call Forwarding page of the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000419.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000420">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000420"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether SS_Status in HLR_SUBS_CFWD_INFO is updated as 15 on enabling unconditional for already No Answer,  Switched Off and  Busy enabled msisdn in the Call Forwarding page of the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000420.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000421">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000421"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether No Answer, Switched Off and Busy gets enabled on disabling Unconditional for which already Unconditional is enabled over No Answer,  Switched Off and  Busy enabled MSISDN in the Call Forward Page of the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000421.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000422">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000422"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Highlighted Fields are Mandatory&#34; error message is displayed on clicking OK without entering values in the Ticket ID and Reason field and `Invalid Ticket ID` Error message is displayed on entering invalid ticketid and reason and `Please select atleast one option` error message is displayed on Clicking Ok without enabling any call forward options  and `Highlighted Fields are Mandatory` error message is displayed on clicking ok on enabling NO Answer without entering msisdn in the Forward to Msisdn field in the  Call Forwarding page of the CRM application."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000422.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CALL_FWD_PCM000423">
+      <parameter name="testcaseName" value="CALL_FWD_PCM000423"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether `Exception : Communication Problem with HLR` error message gets displayed when application is unable to establish&#xA;communication with HLR."/>
+      <parameter name="testCategory" value="USA_Call_Forward"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CALL_FWD_PCM000423.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000159">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000159"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Success&#34; is displayed on clicking Submit and the History is displayed on clicking View History button in the Cancel Initial location page of the CRM application with LM+ MSISDN with ICLPlintronAmerica as ON."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000159.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000160">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000160"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Invalid NAM&#34; is displayed on clicking Submit in the Cancel Initial location page of the CRM application with LM MSISDN with ICLPlintronAmerica as ON."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000160.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000161">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000161"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Communication Problem with IMG&#34; error message is displayed on submitting request in Cancel Initial location&#xA;page when application is unable to connect to IMG when ICLPlintronAmerica as ON."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000161.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000162">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000162"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Success&#34; is displayed on clicking Submit and the History is displayed on clicking View History button in the Cancel Initial location page of the CRM application with LM MSISDN with ICLPlintronAmerica as OFF."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000162.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000163">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000163"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Success&#34; is displayed on clicking Submit and the History is displayed on clicking View History button in the Cancel Initial location page of the CRM application with LM+ MSISDN with ICLPlintronAmerica as OFF."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000163.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000164">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000164"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Exception : Communication Problem with HLR&#34; error message is displayed on submitting request in Cancel Initial&#xA;location page when application is unable to connect to IMG when ICLPlintronAmerica as OFF."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000164.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000165_66">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000165_66"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Primary IMSI Invalid&#34; Error message is thrown on submitting request using MSISDN that is not Present in IMG DB for LM+ number when ICLPlintronAmerica as OFF."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000165_66.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CNC_INL_LN_PCM000167_68">
+      <parameter name="testcaseName" value="CNC_INL_LN_PCM000167_68"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Primary IMSI Invalid&#34; Error message is thrown on submitting request using MSISDN that is not Present in IMG DB for LM+ number when ICLPlintronAmerica as ON."/>
+      <parameter name="testCategory" value="Cancel Initial location"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/CNC_INL_LN_PCM000167_68.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001203">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001203"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the manageroamthresholds request is sent to RRBS(Refer CRMservice logs) with operation code as `2` while clicking on view usage button in the EU configurations page for displaying the usage details."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001203.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001207">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001207"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the sms is sent to the subscriber after successful updation of the threshold limit in the EU config page with the&#xA;condition EUSMSNotification config as `1` in the configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001207.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001208">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001208"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the sms is not sent to the subscriber after successful updation of the threshold limit in the EU config page with the condition EUSMSNotification config as `0` in the configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001208.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001209">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001209"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the manageroamthresholds request is sent to rrbs(Refer CRM service logs) with operation code as `1` while submitting the threshold limit in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001209.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001213">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001213"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the From Date, To Date date pickers and View button are displayed after selecting History button in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001213.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001214">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001214"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the history of the subscriber is displayed in the EU Configuratons page after selecting the valid date from the date pickers and clicking EDR button."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001214.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001579">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001579"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the Bundle name,Expiry Date,Auto Renewal Mode,Alloted, Remaining,Consumed &amp; OBA Renewal values are displayed on navigating to OBA credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001579.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001580">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001580"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the status of oba renewal is successfully changed from active to deactive in oba credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001580.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001581">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001581"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the status of oba renewal is successfully changed from deactive to active in oba credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001581.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

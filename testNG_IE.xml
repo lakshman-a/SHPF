@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRM_IE">
+   <suite-files>
+      <suite-file path="./TestNGXMLs/testNG_Config_IE.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Parallel_1_IE_No1to100.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Parallel_1_IE_No101to200.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Parallel_1_IE_No201to300.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Parallel_1_IE_No301to400.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Parallel_1_IE_No401to431.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Serial_1_IE_1to100.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Serial_1_IE_101to200.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Serial_1_IE_201to300.xml"/>
+      <suite-file path="./TestNGXMLs/Test_Batch_Serial_1_IE_301to357.xml"/>
+   </suite-files>
+</suite>

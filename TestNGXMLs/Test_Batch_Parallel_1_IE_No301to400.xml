@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Parallel_1_IE_4" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="BILL_TNS_PCM000758">
+      <parameter name="testcaseName" value="BILL_TNS_PCM000758"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether all the Rejected records in the table TrnBalanceTransfer for the MsisdnTo are fetched and displayed based on the selected date on searching with status as `View Rejected` and Type as BalanceTransfer and the sub-grid with detailed info of that transactions gets displayed on clicking the hyperlinked Trans Id in the Billing Transaction page of the CRM application."/>
+      <parameter name="testCategory" value="Auto_BillingTransactions"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/BILL_TNS_PCM000758.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_001">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_001"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin User is able to view the TopupFailure History Page in plintron CRM Application."/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_002">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_002"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Initiated"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_003">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_003"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Failure Online Topup"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_004">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_004"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Service-1st try Fail"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_004.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_005">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_005"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Service-2nd try Fail"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_005.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_006">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_006"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Topup Winservice Fail"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_007">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_007"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Topup Success"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_007.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_008">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_008"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Payment Failure"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_008.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_009">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_009"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Credit Card and Type as Abandon"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_009.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_011">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_011"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Voucher Topup"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_011.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Topup_Fail_History_012">
+      <parameter name="testcaseName" value="GBR_Topup_Fail_History_012"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether Admin user is able to view the TopupFailure History for a MSISDN by selecting Topup Mode as Auto Topup Exceptions"/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_Topup_Fail_History_012.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Debit_006">
+      <parameter name="testcaseName" value="GBR_Debit_006"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether &#34;Insufficient Account Balance&#34; error message gets displayed when debit request is submitted for amount greater than the user account balance in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Topup_Fail_History"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Debit_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_001">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_001"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to transfer the partial balance successfully  from one subscriber to other subscriber for Wrong Recredit in the CRM application via admin as the user."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_001.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_002">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_002"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to transfer the partial balance successfully  from one subscriber to other subscriber for Other in the CRM application via admin as the user."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_002.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_003">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_003"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Highlighted Fields are Mandatory&#34; is displayed in the front end and the mandatory fields are highlighted while clicking on approve button without submitting the mandatory fields in the partial balance transfer page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_003.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_004">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_004"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the entered details are refreshed after clickon reset button in the partial balance transfer page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_004.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_005">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_005"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the partial balance transfer request for Wrong Recredit reason via agent login in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_005.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_006">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_006"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the partial balance transfer request for Wrong Topup reason via agent login in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_006.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_007">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_007"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the partial balance transfer request for Other reason via agent login in the CRM application."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_007.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_008">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_008"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to approve the partial balance transfer request successfully for Wrong Recredit reason in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_008.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_009">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_009"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to approve the partial balance transfer request successfully for Wrong Topup reason in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_009.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_010">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_010"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to approve the partial balance transfer request successfully for Others reason in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_010.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_011">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_011"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to reject the partial balance transfer request successfully for Wrong Recredit in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_011.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_012">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_012"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to reject the partial balance transfer request successfully for Wrong Topup in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_012.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Partial_Balance_013">
+      <parameter name="testcaseName" value="GBR_Partial_Balance_013"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether  we can able to reject the partial balance transfer request successfully for Others in the pending approvals page."/>
+      <parameter name="testCategory" value="GBR_Partial_Balance"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Partial_Balance_013.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1090">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1090"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Request submitted successfully&#34; message is displayed on submitting request using the agent login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1090.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1091">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1091"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Successfully authorised. Previous balance: 10.0000, New balance: 60.0000 and Bundle activated successfully&#34; message is displayed on authorizing request using the admin login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1091.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1092">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1092"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether  &#34;Rejected successfully&#34; message is displayed on Rejecting request submitted by the agent using the admin Login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1092.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1093">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1093"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Successfully authorised. Previous balance: 10.0000, New balance: 60.0000 and Bundle activated successfully&#34; message is displayed on directly authorizing request using the admin login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1093.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1094">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1094"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Account Expired&#34; error message is displayed on navigating to staff topup page using Expired sim."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1094.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1095">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1095"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Sim Blocklisted&#34; Error message is displayed on opening staff topup page with Blacklisted Msisdn."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1095.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1096">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1096"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Sim Blocked&#34; Error message is displayed on opening staff topup page with Blocked Msisdn."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1096.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1103">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1103"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether &#34;Rejected successfully&#34; is displayed on rejecting request for which topup is success and bundle failed in the staff topup page of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1103.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1104">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1104"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Request successfully submitted&#34; message is displayed on submitting request in staff topup page when Csagent tries to do Autopup with bu ndle renewal through main balance using the Csagent login of the CRM application"/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1104.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1105">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1105"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Successfully authorised. Previous balance: 10.0000, New balance: 60.0000 and Bundle activated successfully&#34; message is displayed on authorizing request which was raised by Csagent in VIP Staff Topup pending approval page using the admin login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1105.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1106">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1106"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether  &#34;Rejected successfully&#34; message is displayed on Rejecting request submitted by the agent in staff topup page using the admin Login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1106.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1107">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1107"/>
+      <parameter name="testcaseDesc"
+                 value="To Verify whether &#34;Successfully authorised. Previous balance: 10.0000, New balance: 60.0000 and Bundle activated successfully&#34; message is displayed on directly authorizing request in staff topup page when admin tries to do Autopup with bundle renewal through main balance using the admin login of the CRM application."/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1107.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Staff_Topup_1108">
+      <parameter name="testcaseName" value="GBR_Staff_Topup_1108"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether history grid is displayed on clicking the history button using the admin login of the CRM application"/>
+      <parameter name="testCategory" value="GBR_Staff_Topup"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Staff_Topup_1108.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001169">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001169"/>
+      <parameter name="testcaseDesc"
+                 value="To verify addition of child addition is successful through Account balance in CRM Manage family plan page."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001169.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001173">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001173"/>
+      <parameter name="testcaseDesc"
+                 value="To verify Child MSISDN already added alert is displayed on addition of same child MSISDN twice in Manage family plan page."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001173.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001174">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001174"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert is displayed on entering invalid MSISDN in child MSISDN field in Manage family plan page."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001174.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001175">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001175"/>
+      <parameter name="testcaseDesc"
+                 value="To verify valid alert Highlighted fields are mandatory! Alert is displayed on clicking Submit button without entering child MSISDN."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001175.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="USA_Family_Plan_PCM001176">
+      <parameter name="testcaseName" value="USA_Family_Plan_PCM001176"/>
+      <parameter name="testcaseDesc"
+                 value="To verify child MSISDN field is getting resetted on clicking reset button in Manage family plan page."/>
+      <parameter name="testCategory" value="AUTO_MANAGE FAMILY PLAN"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/USA_Family_Plan_PCM001176.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001200">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001200"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the usage amount and available amount is displayed for the subscriber while clicking on view usage button in the EU config page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001200.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001201">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001201"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Highlighted fields are mandatory!&#34; is displayed and the mandatory field is getting&#xA;highlighted in the frontend while we clickon submit button without entering the threshold limit."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001201.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001202">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001202"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the entered data is getting refreshed in the frontend while clickon reset button in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001202.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001205">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001205"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Amount is not within the range&#34; is displayed in the frontend while submitting the value less&#xA;than the value present in the min_roam_data_limit column in the rrbs_promo_restrict_roams table."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001205.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001206">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001206"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Amount is not within the range&#34; is displayed in the frontend while submitting the value more than the value present in the max_roam_data_limit column in the rrbs_promo_restrict_roams table."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001206.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001210">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001210"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to enter numerals in the Threshold limit field in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001210.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001211">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001211"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to enter alphabets in the Threshold limit field in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001211.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001212">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001212"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the user is able to enter special characters other than `.` in the Threshold limit field in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001212.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001215_217">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001215_217"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the &#34;Highlighted fields are mandatory!&#34; alert message is displayed and From date field is highlighted on&#xA;clicking view button without selecting the From and To Date."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_EUConfig_PCM001215_217.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001216">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001216"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the To date is disabled before selecting the From Date in the EU Configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001216.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_EUConfig_PCM001219">
+      <parameter name="testcaseName" value="GBR_EUConfig_PCM001219"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the records are fetched as per the config &#34;EUConfigEDRType&#34; in the EU configurations page."/>
+      <parameter name="testCategory" value="Auto_EU Configurations"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_EUConfig_PCM001219.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001597">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001597"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the nominee details form and details grid is displayed while enabling the subscribe and yes(Nominate a friend) radio button."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001597.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001598_1600">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001598_1600"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the nominee details by filling the mandatory fields(Name, Gender, DOB, Contact number) alone and verify submitted record is displayed below the nominee details form in the disablity services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_DIS_SER_PCM001598_1600.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001599_1607">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001599_1607"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to submit the nominee details by filling the optional fields(Address Line 1, Address Line 2, Email) alone in the disablility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_DIS_SER_PCM001599_1607.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001601">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001601"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to edit the nominee details in the disbaility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001601.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001602">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001602"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to view the nominee details in the disbaility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001602.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001603">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001603"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether whether we can able to make inactive the nominee in the disbility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001603.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001604">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001604"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the page get refreshed while selecting clear button in the disability services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001604.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001605">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001605"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;subscribed successfully&#34; is displayed while selecting subscribe and No(Nominate a friend)&#xA;radio button."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001605.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001606">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001606"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message &#34;Unsubscribed successfully&#34; is displayed while selecting Unsubscribe."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001606.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001608">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001608"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether we can able to sort the nominee details which is displayed below the disbality services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001608.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001609">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001609"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the field level alert message &#34;Enter valid E-mail&#34; is displayed while giving invalid emailid in the disability&#xA;services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001609.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001610">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001610"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the we can able to submit the nominee details with the maximum number of characters in all the fields."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001610.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001611">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001611"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alphabets are allowed in the textfields present in the disbaility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001611.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001612">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001612"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the numerals are allowed in the textfields present in the disbaility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001612.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001613">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001613"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the special characters are allowed in the textfields present in the disbaility services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001613.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001614">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001614"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the we can able to submit the nominee details with the more than the maximum number of characters in all the fields."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001614.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001615">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001615"/>
+      <parameter name="testcaseDesc" value="To verify"/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001615.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_DIS_SER_PCM001616">
+      <parameter name="testcaseName" value="GBR_DIS_SER_PCM001616"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the valid alert message &#34;Select Nominee&#34; is displayed in the frontend and the yes &amp; No radio buttons are&#xA;highlighted while selecting submit button without selecting the nominate a friend option in the disability services page."/>
+      <parameter name="testCategory" value="Auto_DisabilityServices"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_DIS_SER_PCM001616.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001578">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001578"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message `No record found` is displayed on navigating to OBA credit payment page when OBA bundle is not purchased by the subscriber."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001578.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001583_84">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001583_84"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the paynow button is enabled when consumed value is other than 0 and check currency symbol in OBA credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001583_84.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001649">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001649"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whethe the alert message `request already pending` is displayed when user submit the upgrade plan request which is already pending in oba credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001649.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001650">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001650"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whethe the alert message `request already pending` is displayed when user submit the additional credit request which is already pending in oba credit payment page"/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001650.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_OBA_CR_PAY_PCM001651">
+      <parameter name="testcaseName" value="GBR_OBA_CR_PAY_PCM001651"/>
+      <parameter name="testcaseDesc"
+                 value="To verify whether the alert message `Change OBA Plan failed in RRBS!` is displayed on selecting invalid bundle code for upgrade plan request in oba credit payment page."/>
+      <parameter name="testCategory" value="Auto_OBAcredit_payment"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_OBA_CR_PAY_PCM001651.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1704">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1704"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the CRM user able to deactivate the MO DATA service in Network Features window when Mo Data Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1704.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1705">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1705"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the CRM user able to deactivate the MO roaming DATA service in Network Features window when MoroamData Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1705.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1706">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1706"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO DATA service in Network Features window when MO Data Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1706.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1707">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1707"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO roaming DATA service in Network Features window when MOroamData Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1707.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1708">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1708"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO Calls in Network Features window when MOCalls Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1708.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1709">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1709"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MO Calls in Network Features window when MOCalls Mode Config Value is 1 in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1709.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1711">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1711"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MT Calls in Network Features window when MTCallsMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1711.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1712">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1712"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MT Calls in Network Features window when MTCallsMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1712.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1717">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1717"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO Roaming Calls in Network Features window when MORoamingCallsMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1717.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1718">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1718"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MO Roaming Calls in Network Features window when MORoamingCallsMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1718.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1720">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1720"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MT Roaming Calls in Network Features window when MTRoamingCallsMode Config Value is ON in Settings &amp; check corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1720.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1721">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1721"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MT Roaming Calls in Network Features window when MTRoamingCallsMode Config Value is ON in Settings &amp; check the corresponding reason is be displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1721.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_1723">
+      <parameter name="testcaseName" value="GBR_Network_Feature_1723"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO SMS  in Network Features window when MOSMSMode Config Value is ON in Settings &amp; check the corresponding reason is be displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_1723.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2156">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2156"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MO SMS  in Network Features window when MOSMSMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2156.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2158">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2158"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MT SMS  in Network Features window when MTSMSMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2158.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2159">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2159"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MT SMS  in Network Features window when MTSMSMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2159.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2161">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2161"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MO Roaming SMS  in Network Features window when MORoamingSmsMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2161.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2162">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2162"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MO Roaming SMS  in Network Features window when MORoamingSmsMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2162.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2164">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2164"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the MT Roaming SMS  in Network Features window when MTRoamingSmsMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2164.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2165">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2165"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the MT Roaming SMS  in Network Features window when MTRoamingSmsMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2165.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2167">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2167"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to activate the IVR  in Network Features window when IVRMode Config Value is ON in Settings &amp; check the corresponding reason is displayed."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2167.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="GBR_Network_Feature_2168">
+      <parameter name="testcaseName" value="GBR_Network_Feature_2168"/>
+      <parameter name="testcaseDesc"
+                 value="Verify whether the crm user able to deactivate the IVR  in Network Features window when IVRMode Config Value is ON in Settings."/>
+      <parameter name="testCategory" value="GBR_Network_Feature"/>
+      <parameter name="testAuthor" value=""/>
+      <parameter name="testdatasheet" value="./Resources/Test_Data/GBR_Network_Feature_2168.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

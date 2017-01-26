@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Batch_Config_IE" thread-count="1">
+   <parameter name="suiteType" value="Serial"/>
+   <test name="CRM_GBR_APP_CONFIG_SETTINGS">
+      <parameter name="testcaseName" value="CRM_GBR_APP_CONFIG_SETTINGS"/>
+      <parameter name="testcaseDesc"
+                 value="Setting all Basic Precondition to initiate Parallel Execution"/>
+      <parameter name="testCategory" value="BASIC PRE APP SETTINGS"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/CRM_GBR_APP_CONFIG_SETTINGS.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CRM_USA_APP_CONFIG_SETTINGS">
+      <parameter name="testcaseName" value="CRM_USA_APP_CONFIG_SETTINGS"/>
+      <parameter name="testcaseDesc"
+                 value="Setting all Basic Precondition to initiate Parallel Execution"/>
+      <parameter name="testCategory" value="BASIC PRE APP SETTINGS"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/CRM_USA_APP_CONFIG_SETTINGS.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CRM_AUT_APP_CONFIG_SETTINGS">
+      <parameter name="testcaseName" value="CRM_AUT_APP_CONFIG_SETTINGS"/>
+      <parameter name="testcaseDesc"
+                 value="Setting all Basic Precondition to initiate Parallel Execution"/>
+      <parameter name="testCategory" value="BASIC PRE APP SETTINGS"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/CRM_AUT_APP_CONFIG_SETTINGS.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CRM_FRA_APP_CONFIG_SETTINGS">
+      <parameter name="testcaseName" value="CRM_FRA_APP_CONFIG_SETTINGS"/>
+      <parameter name="testcaseDesc"
+                 value="Setting all Basic Precondition to initiate Parallel Execution"/>
+      <parameter name="testCategory" value="BASIC PRE APP SETTINGS"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/CRM_FRA_APP_CONFIG_SETTINGS.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+   <test name="CRM_NOR_APP_CONFIG_SETTINGS">
+      <parameter name="testcaseName" value="CRM_NOR_APP_CONFIG_SETTINGS"/>
+      <parameter name="testcaseDesc"
+                 value="Setting all Basic Precondition to initiate Parallel Execution"/>
+      <parameter name="testCategory" value="BASIC PRE APP SETTINGS"/>
+      <parameter name="testAuthor" value="LAKSHMAN"/>
+      <parameter name="testdatasheet"
+                 value="./Resources/Test_Data/CRM_NOR_APP_CONFIG_SETTINGS.xls"/>
+      <classes>
+         <class name="wrappers.Components">
+            <methods>
+               <include name="runComponents"/>
+            </methods>
+         </class>
+      </classes>
+   </test>
+</suite>

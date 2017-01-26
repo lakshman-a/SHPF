@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite
+  SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="chromeBrowserUpdate">
+   <test name="Set_Browser_chrome">
+      <parameter name="browserName" value="chrome"/>
+      <parameter name="browserDesc" value="Executes in Chrome"/>
+      <classes>
+         <class name="utils.BrowserUpdate"/>
+      </classes>
+   </test>
+</suite>

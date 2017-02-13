@@ -1,0 +1,7 @@
+http://only-testing-blog.blogspot.in/2014/05/login.html
+
+download file in ie11 with autoit
+
+https://www.autoitscript.com/forum/topic/173743-ie11-save-as-for-file-download/
+https://www.autoitscript.com/forum/topic/127987-handling-ie9-file-download-activex-prompts/ 	
+	
